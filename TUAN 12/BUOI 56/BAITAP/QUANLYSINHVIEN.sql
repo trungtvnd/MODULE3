@@ -25,7 +25,6 @@ SELECT st.StudentName, s.SubName, m.Mark
 FROM Student st 
 INNER JOIN mark m ON st.StudentID = m.StudentID
 INNER JOIN Subject s ON s.SubID = m.SubID
-
 ORDER BY m.Mark DESC, st.StudentName ASC;
 
 
