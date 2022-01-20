@@ -1,0 +1,47 @@
+body{
+    margin: 15px;
+    line-height: 30px;
+}
+#header {
+    background-color: #4CAF50;
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#sidebar{
+    background-color: orange;
+    width: 25%;
+    height: 1000px;
+    float: left;
+}
+
+#menu-list{
+
+}
+
+.menu-item{
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 5px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    background-color: #4CAF50;
+}
+
+#content{
+    background-color:blueviolet;
+    width: 75%;
+    height: 1000px;
+    float: left;
+}
+#footer{
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;
+    clear: both;
+}
