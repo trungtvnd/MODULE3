@@ -1,0 +1,17 @@
+.italic{
+    font-style: italic;
+}
+
+.blueText{
+    color: blue;
+    text-decoration: None;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#text {
+    width: 50%;
+    text-align: justify;
+}
