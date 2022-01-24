@@ -11,13 +11,13 @@ public class DateTimeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         PrintWriter writer = response.getWriter();
-        writer.println("<html>");
+//        writer.println("<html>");
         writer.println("<h1>Hello world</h1>");
-        writer.println("</html>");
+
         Date today = new Date();
 
         writer.println("<h1>" + today + "</h1>");
-        writer.println("</html>");
+//        writer.println("</html>");
     }
 
     @Override
