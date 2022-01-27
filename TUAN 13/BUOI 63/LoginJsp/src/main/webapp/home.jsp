@@ -1,7 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="model.Customer" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,6 +31,7 @@
         </thead>
         <tbody>
 
+        <jsp:useBean id="customer" scope="request" type="java.util.List"/>
         <c:forEach items="${customer}" var="cus">
             <tr>
                 <td>${cus.getName()}</td>
