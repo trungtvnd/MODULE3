@@ -38,11 +38,7 @@ public class ProductServlet extends HttpServlet {
     }
 
     private void addProductGet(HttpServletRequest req, HttpServletResponse resp) {
-        try {
-            resp.sendRedirect("/baskets");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
     }
 
     private void displayProduct(HttpServletRequest req, HttpServletResponse resp) {

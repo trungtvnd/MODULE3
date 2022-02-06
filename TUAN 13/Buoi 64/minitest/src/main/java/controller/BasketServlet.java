@@ -24,9 +24,6 @@ public class BasketServlet extends HttpServlet {
         switch (action){
             case "":
                 break;
-            case "addProductGet":
-                addProductGet(req, resp);
-                break;
             default:
                 listBasket(req, resp);
                 break;

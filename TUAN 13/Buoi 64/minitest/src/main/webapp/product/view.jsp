@@ -66,7 +66,7 @@
             <td>${product.getQuantity()}</td>
             <td>${product.getDescribe()}</td>
             <td ><button><a class="getLink" href="${pageContext.request.contextPath}/products?action=viewProduct&id=${product.getId()}">View</a></button></td>
-            <td ><button><a class="getLink" href="${pageContext.request.contextPath}/baskets?action=addProductGet&name=${product.getName()}&quantity=${product.getQuantity()}&price=${product.getPrice()}">Add to Basket</a></button></td>
+            <td ><button><a class="getLink" href="${pageContext.request.contextPath}/products?action=addProductGet&name=${product.getName()}&quantity=${product.getQuantity()}&price=${product.getPrice()}">Add to Basket</a></button></td>
         </tr>
     </c:forEach>
 </table>
